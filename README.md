@@ -1,2 +1,2 @@
 # spring5-di-demo
-Spring 5 Dependency Injection Demo
+This repository is for an example application built in my Spring Framework 5
