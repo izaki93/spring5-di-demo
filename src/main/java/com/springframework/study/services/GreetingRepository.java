@@ -1,4 +1,4 @@
-package com.services;
+package com.springframework.study.services;
 
 public interface GreetingRepository {
     String getEnglishGreeting();

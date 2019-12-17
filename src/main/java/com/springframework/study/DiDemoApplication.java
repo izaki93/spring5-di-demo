@@ -11,7 +11,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 //By adding @ComponentScan(basePackages =...) we overide the default behavior of spring boot
-@ComponentScan(basePackages = {"com.services","com.springframework.study"})
+@ComponentScan(basePackages = {"com.springframework.study.services","com.springframework.study"})
 public class DiDemoApplication {
 
     public static void main(String[] args) {

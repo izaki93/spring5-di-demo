@@ -1,6 +1,6 @@
 package com.springframework.study.controllers;
 
-import com.services.GreetingService;
+import com.springframework.study.services.GreetingService;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 

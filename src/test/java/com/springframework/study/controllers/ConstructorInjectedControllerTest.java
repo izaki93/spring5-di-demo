@@ -1,6 +1,6 @@
 package com.springframework.study.controllers;
 
-import com.services.GreetingServiceImpl;
+import com.springframework.study.services.GreetingServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

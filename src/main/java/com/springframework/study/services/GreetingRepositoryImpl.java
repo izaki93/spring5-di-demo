@@ -1,4 +1,4 @@
-package com.services;
+package com.springframework.study.services;
 
 import org.springframework.stereotype.Repository;
 
