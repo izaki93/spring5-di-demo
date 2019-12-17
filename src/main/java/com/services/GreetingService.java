@@ -1,4 +1,4 @@
-package com.springframework.study.services;
+package com.services;
 
 public interface GreetingService {
     String sayGreeting();
