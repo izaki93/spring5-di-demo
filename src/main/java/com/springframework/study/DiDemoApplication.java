@@ -4,6 +4,7 @@ import com.springframework.study.controllers.ConstructorInjectedController;
 import com.springframework.study.controllers.MyController;
 import com.springframework.study.controllers.PropertyInjectedController;
 import com.springframework.study.controllers.SetterInjectedController;
+import com.springframework.study.examplebeans.FakeDataSource;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -19,10 +20,9 @@ public class DiDemoApplication {
         
         MyController myController = (MyController) ctx.getBean("myController");
 
-        System.out.println(ctx.getBean(MyController.class).hello());
-        System.out.println(ctx.getBean(PropertyInjectedController.class).sayHello());
-        System.out.println(ctx.getBean(SetterInjectedController.class).sayHello());
-        System.out.println(ctx.getBean(ConstructorInjectedController.class).sayHello());
+        FakeDataSource fakeDataSource =(FakeDataSource) ctx.getBean(FakeDataSource.class);
+
+        System.out.println(fakeDataSource.getUser());
     }
 
 }
