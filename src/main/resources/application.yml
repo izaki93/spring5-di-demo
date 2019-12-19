@@ -2,3 +2,13 @@ jms:
   username: JMS username
   password: sompass
   url: someurl
+
+# Three dashes indicate file separator and
+# we can treat the properties after the three dashes as new yml file
+---
+spring:
+  profiles:
+    active: de
+
+jms:
+  username: JMS username $$$$$ German
