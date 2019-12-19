@@ -1,0 +1,4 @@
+jms:
+  username: JMS username
+  password: sompass
+  url: someurl
