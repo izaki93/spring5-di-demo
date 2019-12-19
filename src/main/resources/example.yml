@@ -1,0 +1,45 @@
+# this is a comment
+# yaml is used to describe data structures
+# yaml is sensitive to space some uses two spaces and some uses four space
+
+##-----------------------------------------------------------------
+# define name property
+name: Ibrahim
+
+##-----------------------------------------------------------------
+# define List of names
+names:
+  - Ibrahim
+  - Mohammed
+  - Ahmed
+
+##-----------------------------------------------------------------
+# pound sign as a value
+pound_sign: "#"
+
+##-----------------------------------------------------------------
+# complex object
+book:
+  -author: JK Rowling
+  -publisher: Wiki
+
+##-----------------------------------------------------------------
+# boolean example
+
+truth: yes
+another_truth: true
+false: no #No, false, False
+
+##-----------------------------------------------------------------
+# skip single tick in string by putting the string in two quotes
+string_val: "this is it's a quote"
+colon_string: "my courses : one two three"
+include_new_lins: |
+  test string
+  with new
+  line
+ignore_new_line: >
+  this is
+  just one long
+  string
+
